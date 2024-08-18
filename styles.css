@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:#3B4664;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divInput {
+	height: 15%;
+    margin-top: 30px;
+}
+
+.input::placeholder{
+    color: #ffffff;
+}
+
+.input {
+	height: 80%;
+    width: 330px;
+    background-color:#181F32;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700; 
+    text-align: right;
+    padding-right: 20px;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 278px;
+}
+
+.button_container{
+    height: 300px;
+    width: 330px;
+    background-color: #252D44;
+    border-radius: 10px;
+}
+
+.grid_button{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    grid-template-rows: repeat(4,40px);
+    column-gap: 15px;
+    row-gap: 15px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.button{
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    color: #3B4664;
+    border: none;
+}
+
+
+.flex_button{
+    margin-top: 15px;
+    margin-left: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.flex_button .button{
+    height: 40px;
+    width: 135px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+#delete{
+    background: #647299;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+
+#reset{
+    background: #647299;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+
+#red{
+    background-color: #D13F30;
+    border: none;
+    color: #ffffff;
+}
